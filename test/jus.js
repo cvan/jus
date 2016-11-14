@@ -188,7 +188,7 @@ describe('jus', function () {
       })
     })
 
-    describe('lobars handlebars helpers', function() {
+    describe('lobars Nunjucks helpers', function() {
 
       test('eq', function (done) {
         var page = pages['/other/papayas.markdown']
@@ -536,7 +536,7 @@ describe('jus', function () {
     var output
     var data
 
-    they("get a special non-filenamey key that can accessed within a handlebars template", function(){
+    they('get a special non-filenamey key that can accessed within a template', function(){
       var file = __dirname + '/fixtures/other/nested/delicious_data.json'
       expect(exists(file)).to.be.true
 
@@ -565,12 +565,12 @@ describe('jus', function () {
       expect(data.some_yml_data.friend).to.equal('Ernie')
     })
 
-    it('injects data into templates', function(){
+    it('injects data into templates', function () {
       expect(output).to.contain('His name is cookie monster')
       expect(output).to.contain('Another character is Bert')
     })
 
-    it('includes the `pages` object in the context', function(){
+    it('includes the `pages` object in the context', function () {
       expect(output).to.contain('<li class="page">/other</li>')
       expect(output).to.contain('<li class="page">/other/papayas</li>')
     })

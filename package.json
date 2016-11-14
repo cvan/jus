@@ -80,6 +80,7 @@
     "morgan": "^1.6.1",
     "myth": "^1.5.0",
     "node-sass": "^3.4.2",
+    "nunjucks": "^3.0.0",
     "open": "0.0.5",
     "require-dir": "^0.3.0",
     "stylus": "^0.54.0",
