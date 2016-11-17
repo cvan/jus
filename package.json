@@ -60,6 +60,7 @@
     "concat-stream": "^1.5.1",
     "connect-browser-sync": "^2.0.1",
     "cors": "^2.7.1",
+    "embed-video": "^1.3.0",
     "event-emitter": "^0.3.4",
     "exif-parser": "^0.1.9",
     "express": "^4.13.3",
